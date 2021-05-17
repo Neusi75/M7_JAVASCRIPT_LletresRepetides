@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lletres repetides Ex2</title>
+</head>
+<body>
+    <script>
+        
+   // exercici 2
+
+         var nom2 = ["n", "e", "u", "s", "3", "a","r", "b","o","l","e","d","a","s"];
+        console.log("Partim del nom " + nom2.join(""));
+
+        for(let i=0; i<nom2.length; i++){
+            if (nom2[i] === "a" || nom2[i] === "e" || nom2[i] === "i" || nom2[i] === "o" || nom2[i] === "u"){
+                console.log("He trobat la vocal " + nom2[i]);
+            }
+            else if
+                (nom2[i] === "0" || nom2[i] === "1" || nom2[i] === "2" || nom2[i] === "3" || nom2[i] === "4" || nom2[i] === "5" || nom2[i] === "6" || nom2[i] === "7" || nom2[i] === "8" || nom2[i] === "9"){
+                    console.log("Els noms de persona no contenen el número " + nom2[i]);
+                }
+            else{
+                console.log("He trobat la consonant " + nom2[i]);
+            }
+        }
+
+    </script>
+</body>
+</html>
